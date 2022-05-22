@@ -1,0 +1,72 @@
+.resources__header {
+  margin: 2.5rem 9rem 0;
+  height: 3.5rem;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.resources__header-nav_left {
+  display: flex;
+  align-items: center;
+  gap: 2.5rem;
+}
+
+.resources__header-nav_left img {
+  width: 6.75rem;
+}
+
+.resources__header-nav_left p {
+  font-family: 'Archivo', sans-serif;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 1rem;
+  line-height: 1.25rem;
+  color: #595959;
+}
+
+.resources__header-nav_right {
+  display: flex;
+  gap: 2.5rem;
+}
+
+.resources__header-nav_right input {
+  width: 15rem;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 18px 48px 18px 24px;
+  background: #f3f3f4;
+  border-radius: 5px;
+  border: none;
+
+  font-family: 'Archivo', sans-serif;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 1rem;
+  line-height: 1.25rem;
+  color: #9f9ea6;
+}
+
+.resources__header-nav_btn {
+  width: 12.25rem;
+  height: 3.5rem;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 18px 24px;
+  gap: 10px;
+  background: #4d13d1;
+  border-radius: 5px;
+  border: none;
+  cursor: pointer;
+}
+
+.resources__header-nav_btn span {
+  font-family: 'Archivo', sans-serif;
+  font-style: normal;
+  font-weight: 700;
+  font-size: 1rem;
+  line-height: 1.25rem;
+  color: #ffffff;
+}
