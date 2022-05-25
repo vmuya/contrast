@@ -1,5 +1,5 @@
 import React from 'react';
-import { Header, Hero, ResourceSection } from './containers';
+import { Header, Hero, ResourceSection, NewsLetter } from './containers';
 
 import './App.css';
 
@@ -9,6 +9,7 @@ function App() {
       <Header />
       <Hero />
       <ResourceSection />
+      <NewsLetter />
     </div>
   );
 }
