@@ -1,0 +1,46 @@
+.contrast__resources-heading {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.contrast__resources-categories {
+  display: flex;
+  gap: 1.5rem;
+  padding: 1rem 0;
+}
+
+.contrast__resources-catgories_item {
+  font-family: 'Archivo';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 1.125rem;
+  line-height: 1.25rem;
+  color: #595959;
+  cursor: pointer;
+  margin: 0 1rem;
+}
+
+.contrast__resources-select {
+  border: 1px solid #e0e0e0;
+  border-radius: 5px;
+  padding: 1rem;
+}
+
+.contrast__resources-select_option {
+  font-family: 'Archivo', sans-serif;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 1.125rem;
+  line-height: 1.25rem;
+  color: #595959;
+}
+
+.constrast__resources-grid {
+  display: flex;
+  flex-wrap: wrap;
+  max-width: 100%;
+  justify-content: space-between;
+  margin-top: 3.375rem;
+  gap: 1.875rem;
+}

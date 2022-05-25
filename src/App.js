@@ -1,5 +1,5 @@
 import React from 'react';
-import { Header, Hero } from './containers';
+import { Header, Hero, ResourceSection } from './containers';
 
 import './App.css';
 
@@ -8,6 +8,7 @@ function App() {
     <div className="App">
       <Header />
       <Hero />
+      <ResourceSection />
     </div>
   );
 }

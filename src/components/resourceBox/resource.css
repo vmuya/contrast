@@ -1,0 +1,43 @@
+.contrast__resource-box {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  gap: 1rem;
+  padding: 2.25rem;
+  width: 22.5rem;
+  border: 1px solid #e0e0e0;
+  border-radius: 5px;
+}
+
+.contrast__resource-logo {
+  height: 2rem;
+  width: auto;
+}
+
+.contrast__resource-title {
+  font-family: 'Archivo', sans-serif;
+  font-style: normal;
+  font-weight: 700;
+  font-size: 1, 125rem;
+  line-height: 1.25rem;
+  color: #000000;
+}
+
+.contrast__resource-details {
+  font-family: 'Archivo', sans-serif;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 1.125rem;
+  line-height: 150%;
+  color: #595959;
+}
+
+.contrast__resource-link {
+  font-family: 'Archivo', sans-serif;
+  font-style: normal;
+  font-weight: 700;
+  font-size: 1.125rem;
+  line-height: 1.25rem;
+  text-decoration-line: underline;
+  color: #000000;
+}
