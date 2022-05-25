@@ -11,7 +11,12 @@ const Resource = ({ source, name, description, resourceLink }) => {
 
       <p className="contrast__resource-details">{description}</p>
 
-      <a className="contrast__resource-link" href={resourceLink}>
+      <a
+        className="contrast__resource-link"
+        href={resourceLink}
+        target="_blank"
+        rel="noopener noreferrer"
+      >
         Visit Resource →
       </a>
     </div>
