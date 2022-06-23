@@ -5,7 +5,7 @@ import './newsletter.css';
 
 const Newsletter = () => {
   return (
-    <div className="contrast__newsletter section__margin">
+    <div className="contrast__newsletter">
       <div className="contrast__newsletter-content">
         <h3>Receive design resources every week. Straight to your inbox.</h3>
 
@@ -24,7 +24,7 @@ const Newsletter = () => {
         <p>*No spam, unsubscribe anytime.</p>
       </div>
       <div className="contrast__newsletter-image">
-        <img src={PeepsImg} alt="People" />
+        <img className="contrast__newsletter-img" src={PeepsImg} alt="People" />
       </div>
     </div>
   );

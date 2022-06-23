@@ -3,10 +3,12 @@
   flex-direction: column;
   align-items: flex-start;
   gap: 1rem;
+  width: 30%;
+  min-width: 15rem;
   padding: 2.25rem;
-  width: 22.5rem;
   border: 1px solid #e0e0e0;
   border-radius: 5px;
+  margin-bottom: 1.875rem;
 }
 
 .contrast__resource-logo {
@@ -40,4 +42,10 @@
   line-height: 1.25rem;
   text-decoration-line: underline;
   color: #000000;
+}
+
+@media screen and (max-width: 1200px) {
+  .contrast__resource-box {
+    width: 45%;
+  }
 }
