@@ -49,3 +49,20 @@
     width: 45%;
   }
 }
+
+@media screen and (max-width: 768px) {
+  .contrast__resource-box {
+    width: 100%;
+  }
+}
+
+@media screen and (max-width: 600px) {
+  .contrast__resource-logo {
+    max-height: 100%;
+    max-width: 100%;
+  }
+
+  .contrast__resource-title {
+    font-weight: 600;
+  }
+}

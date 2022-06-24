@@ -102,3 +102,11 @@
     margin: 0;
   }
 }
+
+@media only screen and (max-width: 768px) {
+  .contrast__hero-content h1 {
+    font-weight: 700;
+    font-size: 36px;
+    line-height: 45px;
+  }
+}
