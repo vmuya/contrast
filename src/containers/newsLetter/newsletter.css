@@ -73,7 +73,7 @@
   display: flex;
   justify-content: flex-end;
   margin-bottom: 0;
-  max-height: 100%;
+  max-width: 100%;
 }
 
 @media screen and (max-width: 1200px) {
@@ -96,5 +96,19 @@
   }
   .contrast__newsletter-image {
     justify-content: center;
+  }
+}
+
+@media screen and (max-width: 600px) {
+  .contrast__newsletter-img {
+    max-width: 100%;
+  }
+  .contrast__newsletter-email_box {
+    display: flex;
+    flex-direction: column;
+    gap: 1rem;
+  }
+  .contrast__newsletter-email_box input {
+    margin-right: 0;
   }
 }

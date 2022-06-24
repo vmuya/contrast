@@ -50,11 +50,27 @@
 }
 
 @media screen and (max-width: 768px) {
+  .contrast__footer-links {
+    gap: 2rem;
+  }
+  .contrast__footer {
+    gap: 2rem;
+  }
+}
+
+@media screen and (max-width: 768px) {
   .contrast__footer {
     flex-direction: column;
-    gap: 3rem;
+    gap: 2rem;
   }
   .contrast__footer-content {
     width: 100%;
+  }
+}
+
+@media screen and (max-width: 768px) {
+  .contrast__footer-links {
+    flex-wrap: wrap;
+    justify-content: space-between;
   }
 }
