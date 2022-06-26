@@ -121,6 +121,11 @@
 
 @media only screen and (max-width: 768px) {
   .contrast__header {
-    margin: 2.5rem;
+    margin: 1.5rem;
+  }
+  .contrast__header-navmenu_container {
+    gap: 20px;
+    top: 20px;
+    padding: 1rem;
   }
 }
