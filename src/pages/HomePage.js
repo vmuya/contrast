@@ -5,13 +5,11 @@ import {
   ResourceSection,
   NewsLetter,
   Footer,
-} from './containers';
+} from '../containers';
 
-import './App.css';
-
-function App() {
+const HomePage = () => {
   return (
-    <div className="App">
+    <div>
       <Header />
       <Hero />
       <ResourceSection />
@@ -19,6 +17,6 @@ function App() {
       <Footer />
     </div>
   );
-}
+};
 
-export default App;
+export default HomePage;
