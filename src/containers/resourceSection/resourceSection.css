@@ -47,6 +47,11 @@
 @media screen and (max-width: 768px) {
   .contrast__resources-categories {
     overflow: scroll;
-    overflow-x: hidden;
+  }
+}
+
+@media screen and (max-width: 480px) {
+  .contrast__resources-categories {
+    display: none;
   }
 }
