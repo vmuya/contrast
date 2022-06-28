@@ -1,1 +1,35 @@
 @import url('https://fonts.googleapis.com/css2?family=Archivo:wght@400;500;700&display=swap');
+
+* {
+  box-sizing: border-box;
+  padding: 0;
+  margin: 0;
+  scroll-behavior: smooth;
+}
+
+a {
+  color: unset;
+  text-decoration: none;
+}
+
+.scale-up-center {
+  -webkit-animation: scale-up-center 0.4s cubic-bezier(0.39, 0.575, 0.565, 1)
+    both;
+  animation: scale-up-center 0.4s cubic-bezier(0.39, 0.575, 0.565, 1) both;
+}
+
+.section__margin {
+  margin: 5rem 9.375rem;
+}
+
+@media only screen and (max-width: 1200px) {
+  .section__margin {
+    margin: 0 4rem 5rem 4rem;
+  }
+}
+
+@media only screen and (max-width: 768px) {
+  .section__margin {
+    margin: 0 1.5rem 5rem 1.5rem;
+  }
+}

@@ -1,5 +1,6 @@
 import React, { useState } from 'react';
 import { RiMenuFill, RiCloseLine } from 'react-icons/ri';
+import { Link } from 'react-router-dom';
 import Logo from '../../assets/ContrastLogo.svg';
 
 import './header.css';
@@ -10,8 +11,12 @@ const Header = () => {
   return (
     <div className="contrast__header">
       <div className="contrast__header-nav_left">
-        <img src={Logo} alt="contrast logo" />
-        <p>Browse</p>
+        <Link to="/">
+          <img src={Logo} alt="contrast logo" />
+        </Link>
+        <Link to="/browse">
+          <p>Browse</p>
+        </Link>
       </div>
       <div className="contrast__header-nav_right">
         <input
