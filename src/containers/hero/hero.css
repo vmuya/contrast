@@ -31,28 +31,8 @@
   color: #595959;
 }
 
-.contrast__hero-btn {
-  width: 12.25rem;
-  height: 3.5rem;
-  margin-bottom: 3rem;
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  padding: 18px 24px;
-  gap: 10px;
-  background: #4d13d1;
-  border-radius: 5px;
-  border: none;
-  cursor: pointer;
-}
-
-.contrast__hero-btn span {
-  font-family: 'Archivo', sans-serif;
-  font-style: normal;
-  font-weight: 700;
-  font-size: 1rem;
-  line-height: 1.25rem;
-  color: #ffffff;
+.contrast__hero-p {
+  margin-top: 3rem;
 }
 
 .contrast__hero-logos {

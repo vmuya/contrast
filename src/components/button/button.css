@@ -1,0 +1,22 @@
+.contrast__btn {
+  width: 12.25rem;
+  height: 3.5rem;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 18px 24px;
+  gap: 10px;
+  background: #4d13d1;
+  border-radius: 5px;
+  border: none;
+  cursor: pointer;
+}
+
+.contrast__btn-text {
+  font-family: 'Archivo', sans-serif;
+  font-style: normal;
+  font-weight: 700;
+  font-size: 1rem;
+  line-height: 1.25rem;
+  color: #ffffff;
+}

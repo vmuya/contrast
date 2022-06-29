@@ -1,6 +1,7 @@
 import React, { useState } from 'react';
 import { RiMenuFill, RiCloseLine } from 'react-icons/ri';
 import { Link } from 'react-router-dom';
+import Button from '../../components/button/Button';
 import Logo from '../../assets/ContrastLogo.svg';
 
 import './header.css';
@@ -24,9 +25,7 @@ const Header = () => {
           type="text"
           placeholder="🔍 Search resource"
         ></input>
-        <button className="contrast__header-nav_btn">
-          <span>Submit resource</span>
-        </button>
+        <Button btnText="Submit Resource" />
       </div>
       <div className="contrast__header-nav_menu">
         {toggleMenu ? (
@@ -50,9 +49,7 @@ const Header = () => {
               type="text"
               placeholder="🔍 Search resource"
             ></input>
-            <button className="contrast__header-nav_btn">
-              <span>Submit resource</span>
-            </button>
+            <Button btnText="Submit Resource" />
           </div>
         )}
       </div>

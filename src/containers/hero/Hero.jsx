@@ -1,4 +1,5 @@
 import React from 'react';
+import Button from '../../components/button/Button';
 import Google from '../../assets/GoogleLogo.svg';
 import Discord from '../../assets/DiscordLogo.svg';
 import Slack from '../../assets/SlackLogo.svg';
@@ -35,10 +36,8 @@ const Hero = () => {
           Explore a collection of 3400+ curated design resources, both free and
           paid, developers can use to create landing pages quicker.{' '}
         </p>
-        <button className="contrast__hero-btn">
-          <span>Submit resource</span>
-        </button>
-        <p>Used by individuals in: </p>
+        <Button btnText="Submit Resource" />
+        <p className="contrast__hero-p">Used by individuals in: </p>
         <div className="contrast__hero-logos">
           {logos.map((logo, index) => (
             <img src={logo.src} alt={logo.name} key={index} />
