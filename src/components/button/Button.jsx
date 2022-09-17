@@ -2,10 +2,10 @@ import React from 'react';
 
 import './button.css';
 
-const Button = ({ btnText }) => {
+const Button = (props) => {
   return (
     <button className="contrast__btn">
-      <span className="contrast__btn-text">{btnText}</span>
+      <span className="contrast__btn-text">{props.btnText}</span>
     </button>
   );
 };
