@@ -1,9 +1,13 @@
 import Button from '../button/Button';
 import './modal.css';
 
-const Modal = () => {
+const Modal = (props) => {
   const submitHandler = (e) => {
     e.preventDefault();
+  };
+
+  const btnClicked = () => {
+    props.onClick();
   };
 
   return (
@@ -11,7 +15,7 @@ const Modal = () => {
       <form className="contrast__modal-form" onSubmit={submitHandler}>
         <div className="contrast__modal-header">
           <h1>Submit Resource </h1>
-          <span>&#10006;</span>
+          <button onClick={btnClicked}>&#10006;</button>
         </div>
         <div className="contrast__modal-form_input">
           <label htmlFor="title">Resource Name</label>

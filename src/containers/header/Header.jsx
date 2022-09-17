@@ -1,4 +1,6 @@
-import React, { useState } from 'react';
+import { useState } from 'react';
+import Modal from '../../components/modal/Modal';
+import Backdrop from '../../components/modal/Backdrop';
 import { RiMenuFill, RiCloseLine } from 'react-icons/ri';
 import { Link } from 'react-router-dom';
 import Button from '../../components/button/Button';
@@ -8,6 +10,15 @@ import './header.css';
 
 const Header = () => {
   const [toggleMenu, setToggleMenu] = useState(false);
+  const [showModal, setShowModal] = useState(false);
+
+  const openModalHandler = () => {
+    setShowModal(true);
+  };
+
+  const closeModalHandler = () => {
+    setShowModal(false);
+  };
 
   return (
     <div className="contrast__header">
@@ -25,7 +36,7 @@ const Header = () => {
           type="text"
           placeholder="🔍 Search resource"
         ></input>
-        <Button btnText="Submit Resource" />
+        <Button btnText="Submit Resource" onClick={openModalHandler} />
       </div>
       <div className="contrast__header-nav_menu">
         {toggleMenu ? (
@@ -49,10 +60,12 @@ const Header = () => {
               type="text"
               placeholder="🔍 Search resource"
             ></input>
-            <Button btnText="Submit Resource" />
+            <Button btnText="Submit Resource" onClick={openModalHandler} />
           </div>
         )}
       </div>
+      {showModal && <Modal onClick={closeModalHandler} />}
+      {showModal && <Backdrop onClick={closeModalHandler} />}
     </div>
   );
 };

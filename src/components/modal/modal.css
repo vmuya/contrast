@@ -26,6 +26,18 @@
   align-items: center;
 }
 
+.contrast__modal-header button {
+  color: #9f9ea6;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 1rem;
+  height: 1rem;
+  border: none;
+  outline: none;
+  border-radius: 50%;
+}
+
 .contrast__modal-header h1 {
   font-family: 'Archivo';
   font-style: normal;
@@ -72,4 +84,22 @@ select {
   border: 1px solid #e0e0e0;
   border-radius: 5px;
   padding: 1rem;
+}
+
+@media screen and (max-width: 1000px) {
+  .contrast__modal {
+    width: 60%;
+  }
+}
+
+@media screen and (max-width: 768px) {
+  .contrast__modal {
+    width: 75%;
+  }
+}
+
+@media screen and (max-width: 600px) {
+  .contrast__modal {
+    width: 100%;
+  }
 }
